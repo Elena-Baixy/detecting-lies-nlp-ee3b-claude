@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/detecting-lies-nlp-ee3b-claude/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/detecting-lies-nlp-ee3b-claude/literature_review.md",
+        "resources_catalog": "/workspaces/detecting-lies-nlp-ee3b-claude/resources.md",
+        "papers_dir": "/workspaces/detecting-lies-nlp-ee3b-claude/papers",
+        "datasets_dir": "/workspaces/detecting-lies-nlp-ee3b-claude/datasets",
+        "code_dir": "/workspaces/detecting-lies-nlp-ee3b-claude/code"
+      },
+      "log_file": "/workspaces/detecting-lies-nlp-ee3b-claude/logs/resource_finder_claude.log",
+      "transcript_file": "/workspaces/detecting-lies-nlp-ee3b-claude/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 1049.3696386814117
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 643.9152579307556,
+      "log_file": "/workspaces/detecting-lies-nlp-ee3b-claude/logs/execution_claude.log",
+      "transcript_file": "/workspaces/detecting-lies-nlp-ee3b-claude/logs/execution_claude_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/detecting-lies-nlp-ee3b-claude"
+}

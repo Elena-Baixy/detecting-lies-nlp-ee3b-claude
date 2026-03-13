@@ -1,0 +1,27 @@
+idea:
+  title: Detect different lies
+  domain: nlp
+  hypothesis: 'Current lie-detection methods for LLMs are limited by datasets that
+    do not cleanly separate types of false outputs (such as hallucination, confabulation,
+    and strategic deception), making it unclear what mechanisms detectors are identifying.
+    This research will investigate how often LLM-generated false statements are due
+    to epistemic failure versus incentive-driven misreporting.
+
+    '
+  background:
+    description: "The literature already proposes several distinctions between types\
+      \ of false outputs (e.g., hallucination, confabulation, strategic deception).\
+      \ However, current lie\u2011detection methods often evaluate detectors on datasets\
+      \ that do not cleanly separate these mechanisms, which makes it difficult to\
+      \ know what the detector is actually detecting.\nWhen LLMs produce false statements,\
+      \ how often are these due to epistemic failure versus incentive\u2011driven\
+      \ misreporting?\n"
+  metadata:
+    author: Xiaoyan Bai
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/71I2Dggyhxj7r4VgKWwr
+    idea_id: detect_different_lies_20260313_032758_88ecc21b
+    created_at: '2026-03-13T03:27:58.077243'
+    status: submitted
+    github_repo_name: detecting-lies-nlp-ee3b-claude
+    github_repo_url: https://github.com/Elena-Baixy/detecting-lies-nlp-ee3b-claude
